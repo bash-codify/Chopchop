@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -7,6 +13,7 @@
 }
 
 html{  
+  
   scroll-behavior: smooth;
   font-size: 62.5%;
 
@@ -15,8 +22,5 @@ html{
 body{
   
    font-family: 'Syne', sans-serif;
+  
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

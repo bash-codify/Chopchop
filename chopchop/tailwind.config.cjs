@@ -6,9 +6,11 @@ module.exports = {
   theme: {
     extend: {
           colors: {
-          buttonColor: 'rgba(242, 97, 191, 1)',
-          textBackgroundColor: 'linear-gradient(84.24deg, #F261BF -0.5%, #9D96FD 133.28%)',
-          textColor: '#FCFCFC'
+            primaryColor:'rgb(235, 235, 235)',
+            secodanryColor: 'rgb(26, 26, 26)',
+            buttonColor: 'rgba(242, 97, 191, 1)',
+            priceColor: 'rgb(228, 0, 0)',
+            textColor: '#FCFCFC'
 
 
           },
